@@ -1,0 +1,144 @@
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  background-color: #b3b3b3;
+  transition: 0.3s;
+  padding: 5px;
+}
+
+.nav_logo {
+  color: #142d4c;
+  width: 40px;
+  border-radius: 50px;
+  height: 40px;
+}
+#navbar {
+  display: flex;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  /* font-size: 24px; */
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #142d4c;
+  /* color: #4d4d4d; */
+  transition: 0.3s ease-in-out;
+}
+.nav_link {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+  font-size: bold;
+  font-weight: bold;
+  transition: 0.3s;
+  text-decoration: none;
+  justify-content: right;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*Active link*/
+
+#navbar li a:hover,
+#navbar li a.active {
+  /* color: #4d4d4d; */
+  color: white;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: #142d4c;
+
+  /* background-color: #fff; */
+
+  position: absolute;
+  bottom: -4px;
+}
+
+#toggle {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  nav {
+    padding: 40px;
+  }
+
+  .nav_logo {
+    width: 40px;
+    border-radius: 50px;
+    height: 40px;
+    position: fixed;
+    margin-left: 5%;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 90px;
+    right: -300px;
+    background-color: #b3b3b3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px 10px 10px;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar.active {
+    right: 0px;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #toggle {
+    display: block;
+    width: 40px;
+    color: #142d4c;
+    /* color: #fff; */
+    position: fixed;
+    /* margin-left: 62%; */
+    font-size: 25px;
+
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 769px) {
+  nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar {
+    margin-left: 250px;
+  }
+  .nav_logo {
+    margin-left: 10px;
+  }
+}
+/* @media screen and (min-width: 300px) {
+  #toggle {
+    margin-right: -75%;
+  }
+} */
