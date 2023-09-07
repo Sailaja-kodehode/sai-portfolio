@@ -10,22 +10,21 @@
 .about_container {
   /* height: 100%; */
   border-radius: 5px;
-  max-width: 44rem;
-  padding: 2.5rem;
+  background-color: #d9e4f5;
+  max-width: 850px;
+  padding: 40px;
   color: #142d4c;
   text-align: justify;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-  border: 1px solid #b3b3b3; */
+  border: 1px solid #b3b3b3;
 }
 .about_container_title {
   color: #142d4c;
-  /* color: #5e503f; */
   text-align: center;
   margin-bottom: 20px;
   font-size: 35px;
 }
 .about_container_title:hover {
-  color: #4d4d4d;
+  color: #3a4856;
   cursor: pointer;
 }
 .about_containers_title {
