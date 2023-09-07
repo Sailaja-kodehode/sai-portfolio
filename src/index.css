@@ -23,17 +23,9 @@ body,
   padding: 0;
   height: 100%;
   font-family: poppins;
-  /* margin: 20px 10px; */
-  /* background-color: #efecec;
-  background-image: linear-gradient(315deg, #efecec 0%, #f9aba4 74%); */
-  /* background-color: #ffd1dc; */
-  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
-
-  /* background-color: #d9d9d9;
-  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%); */
 }
 body {
-  /* background: linear-gradient(to left, #2c5364, #203a43, #0f2027); */
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
 }
 
 html {
