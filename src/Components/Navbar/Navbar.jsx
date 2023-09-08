@@ -20,7 +20,8 @@ class Navbar extends Component {
         <nav className="nav_container">
           <a href="index.html" onClick={this.handleClick}></a>
           <div>
-            <Theme />
+            {" "}
+            <Theme />{" "}
           </div>
 
           <a href="index.html" className="nav_logo">

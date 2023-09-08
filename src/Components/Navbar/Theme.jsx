@@ -3,7 +3,7 @@ import { BsSun, BsMoonFill } from "react-icons/bs";
 import "./theme.css";
 
 const ThemeToggle = () => {
-  const icon_size = 30;
+  const icon_size = 24;
   const [icon, setIcon] = useState("BsSun");
   const changeTheme = (iconName) => {
     const item = localStorage.getItem("theme");

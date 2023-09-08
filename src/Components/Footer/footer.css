@@ -5,9 +5,9 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 55px;
   margin: auto;
-  height: 40px;
+  height: 50px;
   background-color: #2884b8;
   transition: 0.3s;
 }
@@ -33,10 +33,4 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-}
-
-@media screen and (max-width: 440px) {
-  .footer {
-    width: 115%;
-  }
 }
