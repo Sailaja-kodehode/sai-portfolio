@@ -51,17 +51,6 @@ class Navbar extends Component {
               </li>
               <li className="nav_ul_li">
                 <a
-                  href="#projects"
-                  onClick={this.handleClick}
-                  className="nav_link"
-                >
-                  {" "}
-                  <MdOutlineBrightness7 />
-                  Prosjekter
-                </a>
-              </li>
-              <li className="nav_ul_li">
-                <a
                   href="#skills"
                   onClick={this.handleClick}
                   className="nav_link"
@@ -71,6 +60,18 @@ class Navbar extends Component {
                   Ferdigheter
                 </a>
               </li>
+              <li className="nav_ul_li">
+                <a
+                  href="#projects"
+                  onClick={this.handleClick}
+                  className="nav_link"
+                >
+                  {" "}
+                  <MdOutlineBrightness7 />
+                  Prosjekter
+                </a>
+              </li>
+
               <li className="nav_ul_li">
                 <a
                   href="#contact"
