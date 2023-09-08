@@ -23,22 +23,23 @@
 .home_container_image {
   width: 250px;
   height: 250px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .home_subtitle {
   font-size: 25px;
   color: #142d4c;
+  margin-left: 5px;
 }
 .home_button {
   display: inline-block;
   padding: 5px;
   width: 100px;
   height: 30px;
-  margin: 30px;
+  margin: 50px;
   border-radius: 5px;
   justify-content: center;
-  background-color: #b3b3b3;
-  color: #4d4d4d;
+  background-color: #2884b8;
+  color: whitesmoke;
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-size: medium;
   font-style: bold;
@@ -48,17 +49,18 @@
   cursor: pointer;
 }
 .home_container_text {
-  margin-top: 50px;
+  margin-top: 40px;
   /* margin-bottom: 150px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .link {
-  color: #142d4c;
+  color: whitesmoke;
+  /* color: #142d4c; */
   font-size: bold;
   font-weight: bold;
   text-decoration: none;
@@ -89,11 +91,12 @@
 
 .icons {
   display: flex;
-  width: 100%;
-  box-sizing: border-box;
+  /* width: 100%; */
+  /* box-sizing: border-box; */
   justify-content: center;
   align-items: center;
-  padding: 0px 10px 10px 10px;
+  margin-left: -35px;
+  padding: 10px 10px 10px 10px;
 }
 
 .icons_list_item {

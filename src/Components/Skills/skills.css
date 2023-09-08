@@ -31,9 +31,9 @@
   display: flexbox;
   font-size: bold;
   font-weight: bold;
-  color: #142d4c;
+  color: whitesmoke;
   /* color: #5e503f; */
-  background-color: #b3b3b3;
+  background-color: #2884b8;
   width: 70px;
   height: 60px;
   padding: 3px 3px 4px 5px;
@@ -48,9 +48,9 @@
   height: 60px;
   font-size: bold;
   font-weight: bold;
-  color: #142d4c;
+  color: whitesmoke;
   /* color: #5e503f; */
-  background-color: #b3b3b3;
+  background-color: #2884b8;
   padding-bottom: 3px 3px -5px 2px;
   border-radius: 5px;
   justify-content: center;
@@ -58,5 +58,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .section_title:hover {
-  color: #3a4856;
+  color: #2884b8;
+  background-color: whitesmoke;
+  cursor: pointer;
 }

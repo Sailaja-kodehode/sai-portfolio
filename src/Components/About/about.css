@@ -24,7 +24,8 @@
   font-size: 35px;
 }
 .about_container_title:hover {
-  color: #3a4856;
+  color: #2884b8;
+  background-color: whitesmoke;
   cursor: pointer;
 }
 .about_containers_title {

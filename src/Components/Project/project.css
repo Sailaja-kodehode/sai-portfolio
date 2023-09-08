@@ -33,25 +33,25 @@
 .projects_button {
   border: none;
   cursor: pointer;
-  color: #b3b3b3;
+  color: whitesmoke;
   width: 65%;
   border-radius: 5px;
   font-size: 15px;
   padding: 10px;
   border-radius: 5px;
   /* background-color: #5e503f; */
-  background-color: #142d4c;
+  background-color: #2884b8;
 }
 .projects_title:hover {
-  color: #3a4856;
+  color: #2884b8;
   cursor: pointer;
 }
 .projects_button-active {
-  background-color: #b3b3b3;
-  color: #142d4c;
+  background-color: whitesmoke;
+  color: #2884b8;
 }
 .projects_button :hover {
-  color: #3a4854;
+  color: #2884b8;
   box-shadow: 5px 5px 5px
     linear-gradient(180deg, gray 0%, rgba(102, 248, 248, 0) 100%);
   border-radius: 5px;
@@ -86,9 +86,9 @@
   width: 80px;
   gap: 5px;
   /* margin-top: -40px; */
-  color: #b3b3b3;
+  color: whitesmoke;
   list-style-type: none;
-  background-color: #142d4c;
+  background-color: #2884b8;
 }
 
 .projects_direction {
@@ -106,7 +106,7 @@
 }
 .projects_direction a {
   text-decoration: none;
-  color: #b3b3b3;
+  color: whitesmoke;
 }
 
 @media screen and (min-width: 1024px) {
@@ -118,8 +118,8 @@
     padding-top: 200px;
   }
   .projects_button-active {
-    background-color: #b3b3b3;
-    color: #142d4c;
+    background-color: whitesmoke;
+    color: #2884b8;
   }
 
   .projects_container {
@@ -137,6 +137,7 @@
     text-align: center;
     color: #142d4c;
     font-size: 35px;
+    margin-bottom: 10px;
   }
   .projects_nav {
     display: flex;
@@ -149,10 +150,10 @@
     padding: 5px;
     border: none;
     cursor: pointer;
-    color: #b3b3b3;
+    color: whitesmoke;
     border-radius: 5px;
     width: 52%;
-    background-color: #142d4c;
+    background-color: #2884b8;
     /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
     border: 1px solid #b3b3b3;
   }
@@ -189,22 +190,23 @@
   .projects_button {
     border: none;
     cursor: pointer;
-    background-color: #b3b3b3;
+    background-color: whitesmoke;
     width: 65%;
     font-size: 15px;
     padding: 10px;
-    color: #142d4c;
+    color: #2884b8;
   }
   .projects_title:hover {
-    color: #3a4856;
+    color: #2884b8;
+    background-color: whitesmoke;
     cursor: pointer;
   }
   .projects_button-active {
-    color: #b3b3b3;
-    background-color: #142d4c;
+    color: whitesmoke;
+    background-color: #2884b8;
   }
   .projects_button :hover {
-    color: #3a4854;
+    color: #2884b8;
     box-shadow: 5px 5px 5px
       linear-gradient(180deg, gray 0%, rgba(102, 248, 248, 0) 100%);
     border-radius: 5px;
