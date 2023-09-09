@@ -5,9 +5,9 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 55px;
+  padding: 35px;
   margin: auto;
-  height: 50px;
+  height: 40px;
   background-color: #2884b8;
   transition: 0.3s;
 }

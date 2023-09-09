@@ -1,6 +1,6 @@
 /* Home start */
 .home {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
 .home_container_image {
   width: 250px;
   height: 250px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .home_subtitle {
   font-size: 25px;
