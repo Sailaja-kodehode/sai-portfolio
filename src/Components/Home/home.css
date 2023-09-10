@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 120px;
+  margin: 0px auto;
 }
 .home_container {
   border-radius: 5px;
@@ -17,13 +18,12 @@
   align-items: center;
   padding: 40px;
   text-align: justify;
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset; */
   border: 1px solid #b3b3b3;
 }
 .home_container_image {
   width: 250px;
   height: 250px;
-  /* margin-top: 30px; */
+  margin-top: 50px;
 }
 .home_subtitle {
   font-size: 25px;
@@ -50,13 +50,12 @@
 }
 .home_container_text {
   margin-top: 40px;
-  /* margin-bottom: 150px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: justify; */
+  text-align: justify;
 }
 .link {
   color: whitesmoke;
@@ -91,8 +90,6 @@
 
 .icons {
   display: flex;
-  /* width: 100%; */
-  /* box-sizing: border-box; */
   justify-content: center;
   align-items: center;
   margin-left: -35px;
@@ -109,9 +106,7 @@
   justify-content: space-around;
   align-items: center;
   margin-left: 1rem;
-  color: #ee6c8a;
-  /* color: #142d4c; */
-  /* color: #5e503f; */
+  color: #902e45;
   text-decoration: none;
   cursor: pointer;
   font-size: 30px;
@@ -163,19 +158,7 @@
     align-items: center;
   }
 }
-@media screen and (max-width: 400px) {
-  .icons_list_item_link {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 0.2rem;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 30px;
-    gap: 5px;
-  }
-}
+
 @media screen and (min-width: 300px) {
   .home_button {
     margin: 5px;
