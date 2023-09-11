@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sai-portfolio/static/css/main.8b05d531.css",
+    "main.css": "/sai-portfolio/static/css/main.366b468e.css",
     "main.js": "/sai-portfolio/static/js/main.c8438cab.js",
     "static/js/787.f216a11b.chunk.js": "/sai-portfolio/static/js/787.f216a11b.chunk.js",
     "static/media/Christmas1.png": "/sai-portfolio/static/media/Christmas1.dce4c1b8f044e7c64dec.png",
@@ -11,12 +11,12 @@
     "static/media/quiz1.png": "/sai-portfolio/static/media/quiz1.573dbd0341a8b2d44466.png",
     "static/media/logo.png": "/sai-portfolio/static/media/logo.f8747f88db1c5229fefa.png",
     "index.html": "/sai-portfolio/index.html",
-    "main.8b05d531.css.map": "/sai-portfolio/static/css/main.8b05d531.css.map",
+    "main.366b468e.css.map": "/sai-portfolio/static/css/main.366b468e.css.map",
     "main.c8438cab.js.map": "/sai-portfolio/static/js/main.c8438cab.js.map",
     "787.f216a11b.chunk.js.map": "/sai-portfolio/static/js/787.f216a11b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b05d531.css",
+    "static/css/main.366b468e.css",
     "static/js/main.c8438cab.js"
   ]
 }
