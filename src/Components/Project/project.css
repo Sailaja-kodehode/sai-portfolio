@@ -101,7 +101,30 @@
   text-decoration: none;
   color: whitesmoke;
 }
-
+@media screen and (min-width: 500px) {
+  .projects_image {
+    margin-left: 60px;
+  }
+  .projects_description {
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  .project_link {
+    margin-top: -60px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .projects_image {
+    margin-left: 200px;
+  }
+  .projects_description {
+    margin-bottom: 10px;
+    width: 70%;
+  }
+  .project_link {
+    margin-top: -200px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .projects {
     display: flex;
