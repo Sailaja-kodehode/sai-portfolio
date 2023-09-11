@@ -26,7 +26,7 @@ const ThemeToggle = () => {
     <BsSun
       className="lightTheme"
       size={icon_size}
-      onClick={() => changeTheme("BsSun ")}
+      onClick={() => changeTheme("BsSun")}
     />
   ) : (
     <BsMoonFill

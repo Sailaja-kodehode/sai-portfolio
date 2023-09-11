@@ -15,7 +15,7 @@ code {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border-radius: 5px; */
+  border-radius: 5px;
 }
 body,
 #root {
@@ -28,15 +28,15 @@ body,
   overflow-x: hidden;
   font-family: poppins;
 }
+
 body {
   background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
 }
-
+/* 
 html {
   scroll-behavior: smooth;
-}
-/* @media (max-width: 767px) {
-  html {
-    overflow-x: hidden;
-  }
 } */
+*,
+html {
+  scroll-behavior: smooth !important;
+}

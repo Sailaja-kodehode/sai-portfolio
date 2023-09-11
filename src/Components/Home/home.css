@@ -18,7 +18,8 @@
   align-items: center;
   padding: 40px;
   text-align: justify;
-  border: 1px solid #b3b3b3;
+
+  /* border: 1px solid #b3b3b3; */
 }
 .home_container_image {
   width: 250px;
