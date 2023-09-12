@@ -5,7 +5,7 @@ import { BsGithub } from "react-icons/bs";
 import { FaFigma } from "react-icons/fa";
 import { ImLinkedin } from "react-icons/im";
 import { SiGmail } from "react-icons/si";
-import cv from "./../Assets/CV/Sailaja_CV_03.2023.docx";
+import cv from "./../Assets/CV/Sailaja CV_Sept 2023.pdf";
 import "./home.css";
 
 //  Homepage
