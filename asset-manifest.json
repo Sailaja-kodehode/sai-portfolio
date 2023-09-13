@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sai-portfolio/static/css/main.013e51e1.css",
-    "main.js": "/sai-portfolio/static/js/main.40bfb60d.js",
+    "main.css": "/sai-portfolio/static/css/main.b4323529.css",
+    "main.js": "/sai-portfolio/static/js/main.f5b2a525.js",
     "static/js/787.f216a11b.chunk.js": "/sai-portfolio/static/js/787.f216a11b.chunk.js",
     "static/media/Christmas1.png": "/sai-portfolio/static/media/Christmas1.dce4c1b8f044e7c64dec.png",
     "static/media/streaming1.png": "/sai-portfolio/static/media/streaming1.f5732d99d372db5d5cc0.png",
@@ -11,12 +11,12 @@
     "static/media/Sailaja CV_Sept 2023.pdf": "/sai-portfolio/static/media/Sailaja CV_Sept 2023.be68b314cf379c6424f9.pdf",
     "static/media/logo.png": "/sai-portfolio/static/media/logo.f8747f88db1c5229fefa.png",
     "index.html": "/sai-portfolio/index.html",
-    "main.013e51e1.css.map": "/sai-portfolio/static/css/main.013e51e1.css.map",
-    "main.40bfb60d.js.map": "/sai-portfolio/static/js/main.40bfb60d.js.map",
+    "main.b4323529.css.map": "/sai-portfolio/static/css/main.b4323529.css.map",
+    "main.f5b2a525.js.map": "/sai-portfolio/static/js/main.f5b2a525.js.map",
     "787.f216a11b.chunk.js.map": "/sai-portfolio/static/js/787.f216a11b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.013e51e1.css",
-    "static/js/main.40bfb60d.js"
+    "static/css/main.b4323529.css",
+    "static/js/main.f5b2a525.js"
   ]
 }
