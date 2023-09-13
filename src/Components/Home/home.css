@@ -24,7 +24,7 @@
 .home_container_image {
   width: 250px;
   height: 250px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .home_subtitle {
   font-size: 25px;
@@ -42,21 +42,22 @@
   background-color: #2884b8;
   color: whitesmoke;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: medium;
-  font-style: bold;
+  /* font-size: medium;
+  font-style: bold; */
   text-align: center;
   justify-items: center;
   row-gap: 10px;
   cursor: pointer;
 }
 .home_container_text {
-  margin-top: 40px;
+  margin-top: 90px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: justify;
+  line-height: 25px;
 }
 .link {
   color: whitesmoke;
@@ -163,5 +164,11 @@
 @media screen and (min-width: 280px) {
   .home_button {
     margin: 5px;
+  }
+
+  .home_subtitle {
+    font-size: 20px;
+    color: #142d4c;
+    margin-left: 5px;
   }
 }

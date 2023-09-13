@@ -42,6 +42,7 @@
 }
 .projects_title:hover {
   color: #2884b8;
+  background-color: whitesmoke;
   cursor: pointer;
 }
 .projects_button-active {
@@ -50,6 +51,7 @@
 }
 .projects_button :hover {
   color: #2884b8;
+
   box-shadow: 5px 5px 5px
     linear-gradient(180deg, gray 0%, rgba(102, 248, 248, 0) 100%);
   border-radius: 5px;
@@ -149,6 +151,7 @@
     text-align: center;
     color: #142d4c;
     font-size: 35px;
+    margin-bottom: 10px;
   }
   .projects_nav {
     display: flex;
@@ -208,6 +211,7 @@
     color: #2884b8;
   }
   .projects_title:hover {
+    background-color: whitesmoke;
     color: #2884b8;
     cursor: pointer;
   }

@@ -35,9 +35,9 @@
   color: whitesmoke;
   /* color: #5e503f; */
   background-color: #2884b8;
-  width: 70px;
+  width: 90px;
   height: 60px;
-  padding: 3px 3px 4px 5px;
+  padding: 5px 15px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -45,14 +45,14 @@
 }
 .skills_js {
   display: flexbox;
-  width: 76px;
+  width: 90px;
   height: 60px;
   font-size: bold;
   font-weight: bold;
   color: whitesmoke;
   /* color: #5e503f; */
   background-color: #2884b8;
-  padding-bottom: 3px 3px -5px 2px;
+  padding-bottom: 5px 0px;
   border-radius: 5px;
   justify-content: center;
   align-items: center;

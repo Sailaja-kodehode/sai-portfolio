@@ -12,10 +12,12 @@ export default function About() {
         {/* a small description about my self */}
 
         <div className="about_container_info ">
-          Jeg er lidenskapeling opptatt av nyteknologi og for tiden deltar jeg
+          Jeg er lidenskapeling opptatt av ny teknologi og for tiden deltar jeg
           på et IT-Utvikler kurs. Fokusområdere på kurset handler om frontend og
           backend utvikling for meg handler om å løse problemer på en kreativ
-          måte. Jeg har også kunnskap om HTML, CSS, JavaScript,React og Figma.
+          måte. Jeg har også kunnskap om HTML, CSS, JavaScript, React og Figma.
+          Min drøm er å bli en full stack-utvikler men jeg har også interessert
+          for design and koding.
           {/* Jeg er en kreativ frontend utvikler, og jeg er veldig lidenskapelig og
           dedikert i arbeidet. Akkurat nå lærer jeg frontend-utviklig på
           kodehode. Jeg synes faget er veldig spennende, og ser frem til å lære.
@@ -30,7 +32,7 @@ export default function About() {
 
         <div className="about_container_info ">
           {/* Title */}
-          Mastergrad I Administrasjon (M.B.A),(Hr,Marketing).
+          Mastergrad I Administrasjon (M.B.A HR and Marketing).
           <p>
             Bachelorgrad i Computer applikasjoner (B.C.A) (Dataapplikasjoner).
           </p>

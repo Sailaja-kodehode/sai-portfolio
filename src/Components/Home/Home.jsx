@@ -51,7 +51,7 @@ export default function Home() {
                 <a
                   className="icons_list_item_link"
                   href="sailaja.kodehode@gmail.com"
-                  target="_blanc"
+                  target="blank"
                 >
                   <SiGmail />
                 </a>
@@ -71,12 +71,7 @@ export default function Home() {
           {/* two Buttons to link CV and Contact page */}
           <div className="button-link">
             <button className="home_button">
-              <a
-                href="
-#contact"
-                className="link"
-                target="_blanc"
-              >
+              <a href="#contact" className="link" target="_blanc">
                 Kontakt
               </a>
             </button>

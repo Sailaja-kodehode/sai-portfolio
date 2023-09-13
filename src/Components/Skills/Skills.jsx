@@ -43,7 +43,7 @@ export default function Skills() {
         <div className="skills">
           <FaNode />
           {/* <img className="skills_image" src={node} alt="my pic" /> */}
-          <p>Node Js</p>
+          <p>NodeJs</p>
         </div>
         <div className="skills">
           {/* <img className="skills_image" src={figma} alt="my pic" /> */}
