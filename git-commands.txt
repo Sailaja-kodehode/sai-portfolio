@@ -1,0 +1,16 @@
+git status 
+
+# checks the status of changes in the codebase
+
+git count-objects -v
+#verbosely checks the code for how many objects there are in total (dont know why Git GUI says'
+ 320 loose objects?)
+
+git add *
+# adds all the files to the GitHub repository
+
+git commit -m "commit message"
+
+
+git push 
+# pushes the changes to the GitHub remote repository

@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px auto;
+  /* margin: 0px auto; */
   padding-top: 100px;
 }
 .about_container {
@@ -43,4 +43,19 @@
 .about_container_info {
   align-items: center;
   text-align: center;
+}
+@media screen and (min-width: 400px) and (max-width: 600) {
+  .about {
+    padding-top: 150px;
+  }
+}
+/* @media screen and (min-width: 820px) {
+  .about {
+    padding-bottom: 200px;
+  }
+} */
+@media screen and (min-width: 1000px) {
+  .about {
+    padding-bottom: 140px;
+  }
 }
