@@ -1,10 +1,10 @@
 .skill {
-  padding-top: 100px;
+  padding-top: 80px;
+  /* padding-bottom: 240px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-
   /* min-height: 100vh; */
 }
 .skills_container {
@@ -24,6 +24,7 @@
 
 .section_title {
   align-items: center;
+  color: #142d4c;
   justify-content: center;
   margin-bottom: 10px;
   font-size: 35px;
@@ -62,4 +63,21 @@
   color: #2884b8;
   background-color: whitesmoke;
   cursor: pointer;
+}
+@media screen and (min-width: 400px) {
+  .skill {
+    padding-top: 200px;
+    padding-bottom: 260px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .skill {
+    padding-top: 270px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .skill {
+    padding-top: 100px;
+    padding-bottom: 140px;
+  }
 }

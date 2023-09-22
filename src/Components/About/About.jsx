@@ -50,7 +50,7 @@ export default function About() {
           <p className="about_paragraph">
             På fritiden min fokuserer jeg på å lære mest mulig norsk, gjennom å
             være med venner og kollegaer. Jeg liker å spiller badminton , gå på
-            felltur og være med min familie og mine barn
+            fjelltur og være med min familie og mine barn
             {/* Fritid jeg lærer norsk for å forbedre min kommunikasjon med kolleger
             og naboer. Jeg liker å spille badminton, å lese bøker og går på tur
             til liten nærest fjell som ta ca. 1 time. Jeg elsker å være sammen

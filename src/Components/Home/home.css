@@ -6,7 +6,8 @@
   justify-content: center;
   align-items: center;
   padding-top: 120px;
-  margin: 0px auto;
+  padding-bottom: 60px;
+  /* margin: 0px auto; */
 }
 .home_container {
   border-radius: 5px;
@@ -18,7 +19,6 @@
   align-items: center;
   padding: 40px;
   text-align: justify;
-
   /* border: 1px solid #b3b3b3; */
 }
 .home_container_image {
@@ -58,6 +58,7 @@
   align-items: center;
   text-align: justify;
   line-height: 25px;
+  /* line-height: 45px; */
 }
 .link {
   color: whitesmoke;
@@ -146,6 +147,7 @@
 @media screen and (min-width: 750px) {
   .home {
     padding-top: 150px;
+    height: 100vh;
   }
   .home_container_text {
     margin-top: 90px;
